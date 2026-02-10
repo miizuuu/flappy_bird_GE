@@ -291,7 +291,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -418,15 +418,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_0
+      name: Background_Day
       rect:
         serializedVersion: 2
         x: 0
-        y: 255
-        width: 145
-        height: 257
+        y: 256
+        width: 144
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -440,15 +440,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_1
+      name: Background_Night
       rect:
         serializedVersion: 2
-        x: 145
-        y: 255
-        width: 146
-        height: 257
+        x: 146
+        y: 256
+        width: 144
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,15 +462,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_2
+      name: Ground
       rect:
         serializedVersion: 2
-        x: 291
-        y: 455
-        width: 170
-        height: 57
+        x: 292
+        y: 456
+        width: 168
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -487,12 +487,12 @@ TextureImporter:
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_3
       rect:
         serializedVersion: 2
-        x: 464
-        y: 492
-        width: 33
-        height: 20
+        x: 465
+        y: 493
+        width: 31
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -514,7 +514,7 @@ TextureImporter:
         width: 9
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -536,7 +536,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -553,12 +553,12 @@ TextureImporter:
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_6
       rect:
         serializedVersion: 2
-        x: 461
-        y: 471
-        width: 42
-        height: 16
+        x: 462
+        y: 472
+        width: 40
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -580,7 +580,7 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -597,12 +597,12 @@ TextureImporter:
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_8
       rect:
         serializedVersion: 2
-        x: 461
-        y: 455
-        width: 42
-        height: 16
+        x: 462
+        y: 456
+        width: 40
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -624,7 +624,7 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -638,15 +638,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_10
+      name: GetReady_UI
       rect:
         serializedVersion: 2
-        x: 294
-        y: 431
-        width: 34
-        height: 23
+        x: 295
+        y: 428
+        width: 92
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -660,37 +660,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_11
+      name: GameOver_UI
       rect:
         serializedVersion: 2
-        x: 328
-        y: 427
-        width: 60
-        height: 27
+        x: 395
+        y: 432
+        width: 96
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae961b4982a8daf20800000000000000
-      internalID: 3435553997651536362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_12
-      rect:
-        serializedVersion: 2
-        x: 394
-        y: 431
-        width: 51
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -704,28 +682,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_13
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 431
-        width: 44
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 738ae208d2a4f2ff0800000000000000
-      internalID: -58746710848001993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_14
       rect:
         serializedVersion: 2
@@ -734,7 +690,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -748,37 +704,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_15
+      name: Title_UI
       rect:
         serializedVersion: 2
-        x: 311
-        y: 408
-        width: 19
-        height: 14
+        x: 351
+        y: 397
+        width: 89
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8107ed4f0c3bb6320800000000000000
-      internalID: 2552331255158829080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_16
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 396
-        width: 91
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -795,12 +729,12 @@ TextureImporter:
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_17
       rect:
         serializedVersion: 2
-        x: 495
-        y: 422
-        width: 7
-        height: 7
+        x: 496
+        y: 423
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -817,12 +751,12 @@ TextureImporter:
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_18
       rect:
         serializedVersion: 2
-        x: 442
-        y: 414
-        width: 26
-        height: 7
+        x: 443
+        y: 415
+        width: 39
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -836,81 +770,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_19
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 414
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12616f3db420b7c00800000000000000
-      internalID: 899315075292468769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_20
-      rect:
-        serializedVersion: 2
-        x: 472
-        y: 414
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c90a54bbe19221f30800000000000000
-      internalID: 4544740185937911964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_21
-      rect:
-        serializedVersion: 2
-        x: 477
-        y: 414
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27d50277fd46abde0800000000000000
-      internalID: -1316629030113354382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_22
       rect:
         serializedVersion: 2
-        x: 486
-        y: 414
-        width: 6
-        height: 7
+        x: 487
+        y: 415
+        width: 17
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -924,95 +792,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_23
-      rect:
-        serializedVersion: 2
-        x: 491
-        y: 414
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27d6b7dc4c9e48060800000000000000
-      internalID: 6954940756037168498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_24
-      rect:
-        serializedVersion: 2
-        x: 499
-        y: 414
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d442b2c3756d5da70800000000000000
-      internalID: 8851216312826537037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_25
-      rect:
-        serializedVersion: 2
-        x: 309
-        y: 404
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52d419e4f80733bd0800000000000000
-      internalID: -2651651994790310619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_26
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 394
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f0ccc29482dd9490800000000000000
-      internalID: -7737797117912235783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_27
+      name: Play_UI
       rect:
         serializedVersion: 2
         x: 353
@@ -1020,7 +800,7 @@ TextureImporter:
         width: 54
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1034,7 +814,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_28
+      name: Score_UI
       rect:
         serializedVersion: 2
         x: 413
@@ -1042,7 +822,7 @@ TextureImporter:
         width: 54
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1056,116 +836,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_29
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 378
-        width: 23
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f3b0faf8411c2cd0800000000000000
-      internalID: -2581669481244740618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_30
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 371
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3491d9a0075612590800000000000000
-      internalID: -7700762355938027197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_31
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 378
-        width: 23
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0edb57bc463b65f20800000000000000
-      internalID: 3411111013271322080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_32
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 355
-        width: 42
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3dc70d752a4964a60800000000000000
-      internalID: 7657971641369001171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_33
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 355
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4beb469dfe4e8de50800000000000000
-      internalID: 6834464153330302644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_34
       rect:
         serializedVersion: 2
@@ -1174,7 +844,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1196,7 +866,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1218,7 +888,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1240,7 +910,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1262,7 +932,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1284,7 +954,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1306,7 +976,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1328,7 +998,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1345,12 +1015,12 @@ TextureImporter:
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_42
       rect:
         serializedVersion: 2
-        x: 291
-        y: 289
-        width: 18
-        height: 18
+        x: 292
+        y: 290
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1372,7 +1042,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1389,12 +1059,12 @@ TextureImporter:
       name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_44
       rect:
         serializedVersion: 2
-        x: 291
-        y: 271
-        width: 18
-        height: 18
+        x: 292
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1416,7 +1086,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1438,7 +1108,7 @@ TextureImporter:
         width: 115
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1460,7 +1130,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1482,7 +1152,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1504,7 +1174,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1526,7 +1196,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1548,7 +1218,7 @@ TextureImporter:
         width: 27
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1570,7 +1240,7 @@ TextureImporter:
         width: 28
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1584,15 +1254,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_53
+      name: Pipe_Down
       rect:
         serializedVersion: 2
-        x: 55
-        y: 28
-        width: 28
-        height: 162
+        x: 56
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1606,15 +1276,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_54
+      name: Pipe_Up
       rect:
         serializedVersion: 2
-        x: 83
-        y: 28
-        width: 28
-        height: 162
+        x: 84
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1636,7 +1306,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1658,7 +1328,7 @@ TextureImporter:
         width: 8
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1680,7 +1350,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1702,7 +1372,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1724,7 +1394,7 @@ TextureImporter:
         width: 8
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1746,7 +1416,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1768,7 +1438,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1790,7 +1460,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1812,7 +1482,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1834,7 +1504,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1856,7 +1526,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1878,7 +1548,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1900,7 +1570,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1922,7 +1592,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1944,7 +1614,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1966,7 +1636,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1988,7 +1658,7 @@ TextureImporter:
         width: 10
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2010,7 +1680,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2032,7 +1702,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2054,7 +1724,7 @@ TextureImporter:
         width: 7
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2068,7 +1738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_75
+      name: Flappy_1
       rect:
         serializedVersion: 2
         x: 2
@@ -2076,7 +1746,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2090,7 +1760,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_76
+      name: Flappy_2
       rect:
         serializedVersion: 2
         x: 30
@@ -2098,7 +1768,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2112,7 +1782,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_77
+      name: Flappy_3
       rect:
         serializedVersion: 2
         x: 58
@@ -2120,7 +1790,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2142,7 +1812,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2164,7 +1834,7 @@ TextureImporter:
         width: 18
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2186,7 +1856,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2199,11 +1869,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Start_UI
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 356
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560804b6e6cddcf4089c58cc6d2c725e
+      internalID: 802763249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 87771a74647106f4cb07ca415e511f54
     internalID: 0
     vertices: []
     indices: 
@@ -2213,19 +1905,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_0: -3028843797619237106
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_1: -5001303908148437828
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_10: -5483473539241287296
+      Background_Day: -3028843797619237106
+      Background_Night: -5001303908148437828
+      Flappy_1: 1056323664804065294
+      Flappy_2: -1140478425515490406
+      Flappy_3: 7446298840931430197
+      GameOver_UI: 6341464390685209381
+      GetReady_UI: -5483473539241287296
+      Ground: -4561133946181240693
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_11: 3435553997651536362
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_12: 6341464390685209381
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_13: -58746710848001993
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_14: -3928390806445110986
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_15: 2552331255158829080
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_16: 4623261541612039627
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_17: -4350432165510783863
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_18: -6664834790808235504
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_19: 899315075292468769
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_2: -4561133946181240693
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_20: 4544740185937911964
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_21: -1316629030113354382
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_22: 8213362460969047956
@@ -2233,8 +1927,6 @@ TextureImporter:
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_24: 8851216312826537037
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_25: -2651651994790310619
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_26: -7737797117912235783
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_27: -5448222425035498909
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_28: 2605493221635795637
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_29: -2581669481244740618
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_3: 335599229034294550
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_30: -7700762355938027197
@@ -2262,8 +1954,6 @@ TextureImporter:
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_50: 3537081509339508498
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_51: 6144816979141319645
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_52: 2048223339202631646
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_53: -9212221691092033360
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_54: -4685103279127582271
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_55: 8959818511006310400
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_56: -6483787682828667861
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_57: -8191772816379095192
@@ -2286,14 +1976,17 @@ TextureImporter:
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_72: -6566187506724280842
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_73: 4418428744136845448
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_74: -2273723988912934231
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_75: 1056323664804065294
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_76: -1140478425515490406
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_77: 7446298840931430197
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_78: -8526706937375059277
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_79: 7417950305089921534
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_8: 8429115218152209709
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_80: 6615753734836925697
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_9: 7872081108920916189
+      Pipe_Down: -9212221691092033360
+      Pipe_Up: -4685103279127582271
+      Play_UI: -5448222425035498909
+      Score_UI: 2605493221635795637
+      Start_UI: 802763249
+      Title_UI: 4623261541612039627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
