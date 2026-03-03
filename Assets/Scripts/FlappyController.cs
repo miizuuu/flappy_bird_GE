@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class FlappyController : MonoBehaviour
 {
-    [SerializeField] private float jumpForce = 1;
+    [SerializeField] private float jumpForce, rotationSpeed;
     private Rigidbody2D _rb;
 
     private void Awake()
@@ -14,17 +14,11 @@ public class FlappyController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") || (Input.GetKeyDown(KeyCode.Space)))
         {
             _rb.linearVelocity = Vector2.up * jumpForce;
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Pipe"))
-        {
-            //codigo insano de morte
-        }
+        
+        transform.rotation = Quaternion.Euler(0f, 0f, _rb.linearVelocity.y * rotationSpeed);
     }
 }
